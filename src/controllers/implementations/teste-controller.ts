@@ -13,6 +13,7 @@ export class TesteController implements HttpController {
       const result = this.teste.execute()
       return success(result)
     } catch (error) {
+      console.error(error)
       return serverError(error)
     }
   }
