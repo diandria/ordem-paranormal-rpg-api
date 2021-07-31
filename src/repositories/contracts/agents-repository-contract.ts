@@ -1,3 +1,5 @@
+import { Agent } from '../../entities'
+
 export interface AgentsRepository {
-  add(): Promise<any>
+  add(agent: Agent): Promise<boolean>
 }
