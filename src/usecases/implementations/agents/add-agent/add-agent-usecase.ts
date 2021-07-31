@@ -1,5 +1,5 @@
-import { AgentsRepository } from '../../../repositories/contracts'
-import { AddAgent, AgentStatusTypes, AddAgentResponse, AddAgentDTO } from '../../contracts/agents-contract'
+import { AgentsRepository } from '../../../../repositories/contracts'
+import { AddAgent, AgentStatusTypes, AddAgentResponse, AddAgentDTO } from '../../../contracts/agents-contract'
 
 type Dependencies = {
   agentsRepository: AgentsRepository
